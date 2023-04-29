@@ -3,11 +3,10 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 24px;
-    max-width: 232px;
+    max-width: calc(232px - 36px);
     height: calc(100vh - 24px);
     display: flex;
     flex-direction: column;
-
 }
 
 .sidebar__wrapper>img{
