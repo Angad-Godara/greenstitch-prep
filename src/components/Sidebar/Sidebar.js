@@ -7,7 +7,7 @@ import SideFooter from './SideFooter'
 function Sidebar() {
     return (
         <aside className='sidebar__wrapper'>
-            <img src='/assets/logo.jpg' alt='logo' />
+            <img src='assets/logo.jpg' alt='logo' />
             <div>
                 <Dashboard />
                 <Pages />

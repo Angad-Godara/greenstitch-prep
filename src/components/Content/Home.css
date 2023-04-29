@@ -1,9 +1,7 @@
 .home__wrapper{
-    position: absolute;
-    top: 66px;
-    left: 232px;
+    margin-top: 66px;
+    margin-left: 232px;
     padding: 32px;
-    right: 0;
 }
 
 .card__wrapper{

@@ -14,7 +14,8 @@ function Home() {
                         title={data?.title}
                         number={data?.number}
                         gas={data?.gas}
-                        percentage={data?.percentage} numcount={data?.numcount}
+                        percentage={data?.percentage}
+                        numcount={data?.numcount}
                         from={data?.from}
                         grey={data?.grey} />
                 ))}

@@ -29,9 +29,17 @@ function BarChart() {
             <VictoryChart domainPadding={{ x: 50 }} width={700} height={200}>
                 <VictoryAxis
                     tickValues={["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"]}
+                    style={{
+                        axisLabel: { fill: '#5F6980', fontSize: 13 },
+                        tickLabels: { fill: '#5F6980', fontSize: 13 },
+                    }}
                 />
                 <VictoryAxis dependentAxis
                     tickFormat={(t) => t > 1000 ? `${Math.round(t / 1000)}k` : t}
+                    style={{
+                        axisLabel: { fill: '#5F6980', fontSize: 13 },
+                        tickLabels: { fill: '#5F6980', fontSize: 13 },
+                    }}
                 />
                 <VictoryGroup offset={20} style={{ data: { width: 15 } }}>
                     <VictoryStack colorScale={barData.map(dataSet => dataSet.color)} >
