@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/greenstitch-prep/static/css/main.59401943.css",
-    "main.js": "/greenstitch-prep/static/js/main.df4a93d3.js",
+    "main.css": "/greenstitch-prep/static/css/main.0480e9cc.css",
+    "main.js": "/greenstitch-prep/static/js/main.9080284d.js",
     "static/js/787.aa7b6fb5.chunk.js": "/greenstitch-prep/static/js/787.aa7b6fb5.chunk.js",
     "index.html": "/greenstitch-prep/index.html",
-    "main.59401943.css.map": "/greenstitch-prep/static/css/main.59401943.css.map",
-    "main.df4a93d3.js.map": "/greenstitch-prep/static/js/main.df4a93d3.js.map",
+    "main.0480e9cc.css.map": "/greenstitch-prep/static/css/main.0480e9cc.css.map",
+    "main.9080284d.js.map": "/greenstitch-prep/static/js/main.9080284d.js.map",
     "787.aa7b6fb5.chunk.js.map": "/greenstitch-prep/static/js/787.aa7b6fb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59401943.css",
-    "static/js/main.df4a93d3.js"
+    "static/css/main.0480e9cc.css",
+    "static/js/main.9080284d.js"
   ]
 }
