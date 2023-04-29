@@ -13,6 +13,13 @@
     grid-row-gap: 32px;
 }
 
+.charts{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
 /* card's css */
 .card{
     display: flex;

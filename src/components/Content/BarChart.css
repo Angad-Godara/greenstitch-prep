@@ -1,0 +1,42 @@
+.barchart__wrapper{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 75%;
+    max-height: 382px;
+    padding-bottom: 0;
+}
+
+.baroptions{
+    display: flex;
+    align-items: center;
+}
+
+.bar__title{
+    margin: 10px;
+}
+
+.bar__list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.bar__list>li{
+    font-size: 12px;
+    margin: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.bar__list>li>p{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 3px;
+    margin-right: 5px;
+}

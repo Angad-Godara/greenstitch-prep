@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css'
 import Card from './Card'
 import cards from '../../data/cards'
+import BarChart from './BarChart'
+import DonutChart from './DonutChart'
 
 function Home() {
     return (
@@ -16,6 +18,10 @@ function Home() {
                         from={data?.from}
                         grey={data?.grey} />
                 ))}
+            </div>
+            <div className='charts'>
+                <BarChart />
+                <DonutChart />
             </div>
         </main>
     )
