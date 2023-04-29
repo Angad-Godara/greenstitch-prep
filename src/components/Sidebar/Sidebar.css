@@ -12,6 +12,7 @@
 .sidebar__wrapper>img{
     width: 133px;
     height: 41px;
+    cursor: pointer;
 }
 
 .sidebar__title{
@@ -27,6 +28,7 @@
     font-weight: 500;
     color: #5F6980;
     padding-left: 27px;
+    cursor: pointer;
 }
 
 .sidebar__options>li{

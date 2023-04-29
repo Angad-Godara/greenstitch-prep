@@ -10,10 +10,9 @@ function BarChart() {
             <div className='baroptions'>
                 <h2 className='bar__title'>Carbon Footprint</h2>
                 <ul className='bar__list'>
-                    <li><p style={{ background: '#57CC78' }}></p>Spinning</li>
-                    <li><p style={{ background: '#55DBDB' }}></p>Transportation</li>
-                    <li><p style={{ background: '#E2FF32' }}></p>Carding</li>
-                    <li><p style={{ background: '#FEC102' }}></p>Heating & Cooling</li>
+                    {barData?.map(data => (
+                        <li><p style={{ background: `${data?.color}` }}></p>{data?.name}</li>
+                    ))}
                 </ul>
                 <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.854187" y="0.359421" width="36.4375" height="36.5391" rx="10" fill="#F4F7FE" />
@@ -27,7 +26,7 @@ function BarChart() {
                     </defs>
                 </svg>
             </div>
-            <VictoryChart domainPadding={{ x: 50 }} width={763} height={249}>
+            <VictoryChart domainPadding={{ x: 50 }} width={700} height={200}>
                 <VictoryAxis
                     tickValues={["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"]}
                 />
@@ -43,7 +42,7 @@ function BarChart() {
                                 style={{
                                     data: {
                                         borderRadius: index === barData.length - 1 ? 20 : 0,
-                                        width: 49,
+                                        width: 45,
                                     }
                                 }}
                             />

@@ -1,7 +1,7 @@
 .donut__wrapper{
     background-color: #ffffff;
     width: 25%;
-    max-height: 377px;
+    height: auto;
     border-radius: 20px;
     margin-left: 20px;
     padding: 10px 30px;
@@ -11,8 +11,8 @@
 }
 
 .donut__container{
-    max-width: 150px;
-    max-width: 150px;
+    max-width: 60%;
+    max-width: 60%;
 }
 
 .donut__list{

@@ -38,12 +38,14 @@
 
 .nav__options>svg{
     margin-right:32px;
+    cursor: pointer;
 }
 
 .nav__user{
     margin-left: -32px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav__user>img{
