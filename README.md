@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# GreenStitch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Greenstitch-prep](https://user-images.githubusercontent.com/80452785/235316955-752f6509-cbdd-4bcb-9c11-81ec8154f044.png)
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+The goal of this project was to create a UI for the provided [Figma UX](https://www.figma.com/file/AGlLGwS4yvPMWJXsyJ7V1q/Untitled?node-id=0-1&t=FpivFABhDmPEwtUo-0). The UI resembles the design in the Figma file as closely as possible, and the data displayed in the UI should is powered from a DB/JSON file. The Figma UI showcases a dashboard page for reports, where the dashboard has cards to showcase particular data, bar and pie charts for formatted data.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project, you need to have the following installed on your system:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js
+- npm
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install the dependencies, run the following command:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the application in development mode, run the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+This will start a development server on `http://localhost:3000`, and you can view the application in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To build the application for production, run the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will create a production-ready build in the `build` folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dependencies
 
-## Learn More
+The project uses the following dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- Gh-Pages
+- Victory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Data
 
-### Code Splitting
+To display the data in the dashboard, I have stored the json data in a Javascript file with the required data structure. The structure of the JSON file matchs the data required as closely as possible by the application. You can store the JavaScript file in the `src` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Folder Structure
 
-### Analyzing the Bundle Size
+The project has the following folder structure in src folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    .
+    ├── ...
+    ├── components                    
+    │   ├── Content             # This contains the main dashboard components
+    │   ├── Navbar              # This contains navbar and related components
+    │   └── Sidebar             # This contains sidebar and related components
+    ├── data                    
+    │   ├── barCharts.js        # This contains the json object that contains data for the bar chart  
+    │   ├── cards.js            # This contains the json object that contains data for the card components
+    │   └── donutCharts.js      # This contains the json object that contains data for the donut chart
+    └── ...
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The `components` folder contains all of the reusable components used in the project, the `data` folder contains the JSON file used to power the data in the dashboard, and `App.js` and `index.js` are the entry points for the application.
 
-### Advanced Configuration
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project had been a great way to practice and showcase my React skills and explore designing dashboard with charts and data pulled from a JSON file. If you have any questions or feedback, please feel free to contact me.
