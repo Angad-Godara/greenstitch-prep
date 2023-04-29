@@ -1,0 +1,38 @@
+export default [
+    {
+        title: 'Carbon Footprint',
+        numcount: 2,
+        number: '2,412,314t',
+        gas: 'CO2e',
+        percentage: '-45%',
+        from: null,
+        grey: false,
+    },
+    {
+        title: 'Emission by Spinning',
+        numcount: 1,
+        number: '72,3694t',
+        gas: 'CO2e',
+        percentage: '-60%',
+        from: null,
+        grey: false,
+    },
+    {
+        title: 'Emission by Transportation',
+        numcount: 1,
+        number: '361,874t',
+        gas: 'CO2e',
+        percentage: '0.0%',
+        from: null,
+        grey: true,
+    },
+    {
+        title: 'Emission by Carding',
+        numcount: 1,
+        number: '241,231',
+        gas: 'CO2e',
+        percentage: '+0.6%',
+        from: '4.6%',
+        grey: false,
+    },
+]
