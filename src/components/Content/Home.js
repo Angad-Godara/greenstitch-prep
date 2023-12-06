@@ -24,6 +24,14 @@ function Home() {
                 <BarChart />
                 <DonutChart />
             </div>
+            <div className='widget__wrapper'>
+                <div data-gs
+                    data-productidentifier="10"
+                    data-apikey="GS_f5d91c51-48eb-4d3c-8654-0a61a03e4a58"
+                    data-layout="small"
+                    data-lang="en">
+                </div>
+            </div>
         </main>
     )
 }
